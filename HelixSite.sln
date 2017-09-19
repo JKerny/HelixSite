@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{11613C1E-E116-4F7F-A987-696FA7A8AD1F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{4FF19842-3CA2-4741-A8E7-0A83C6A04F66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dictionary", "Dictionary", "{50F660FC-5A4E-46B5-A0E1-FCB736E1BE61}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Navigation", "Navigation", "{63AA425F-A58E-42E8-99F5-1EEC1B46744F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{BD4F4DEC-C1FC-4A5A-88B2-032492ABF92D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website", "Website", "{1DDE4E93-2933-4134-AF24-5FFAFD5AF92D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelixSite.Project.Website", "src\Project\Website\Code\HelixSite.Project.Website.csproj", "{21C78376-DA04-4FD4-B0A0-F70375F95350}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelixSite.Foundation.Dictionary", "..\src\Foundation\Dictionary\Code\HelixSite.Foundation.Dictionary.csproj", "{CE97B270-9EAD-4625-810A-1C86933D70CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelixSite.Feature.Navigation", "..\src\Feature\Navigation\code\HelixSite.Feature.Navigation.csproj", "{B620216D-A6BD-40CE-AD60-21496D156806}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21C78376-DA04-4FD4-B0A0-F70375F95350}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21C78376-DA04-4FD4-B0A0-F70375F95350}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21C78376-DA04-4FD4-B0A0-F70375F95350}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21C78376-DA04-4FD4-B0A0-F70375F95350}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE97B270-9EAD-4625-810A-1C86933D70CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE97B270-9EAD-4625-810A-1C86933D70CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE97B270-9EAD-4625-810A-1C86933D70CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE97B270-9EAD-4625-810A-1C86933D70CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B620216D-A6BD-40CE-AD60-21496D156806}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B620216D-A6BD-40CE-AD60-21496D156806}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B620216D-A6BD-40CE-AD60-21496D156806}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B620216D-A6BD-40CE-AD60-21496D156806}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{50F660FC-5A4E-46B5-A0E1-FCB736E1BE61} = {11613C1E-E116-4F7F-A987-696FA7A8AD1F}
+		{63AA425F-A58E-42E8-99F5-1EEC1B46744F} = {4FF19842-3CA2-4741-A8E7-0A83C6A04F66}
+		{1DDE4E93-2933-4134-AF24-5FFAFD5AF92D} = {BD4F4DEC-C1FC-4A5A-88B2-032492ABF92D}
+		{21C78376-DA04-4FD4-B0A0-F70375F95350} = {1DDE4E93-2933-4134-AF24-5FFAFD5AF92D}
+		{CE97B270-9EAD-4625-810A-1C86933D70CA} = {50F660FC-5A4E-46B5-A0E1-FCB736E1BE61}
+		{B620216D-A6BD-40CE-AD60-21496D156806} = {63AA425F-A58E-42E8-99F5-1EEC1B46744F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CFF5C78D-0F9A-4E94-BE9C-220E51EBAF8E}
+	EndGlobalSection
+EndGlobal

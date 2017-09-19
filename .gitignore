@@ -1,0 +1,8 @@
+node_modules/
+packages/
+src/Feature/Navigation/HelixSite.Feature.Navigation/bin/
+src/Project/Website/HelixSite.Project.Website/obj/
+src/Project/Website/HelixSite.Project.Website/bin/
+src/Foundation/Dictionary/HelixSite.Foundation.Dictionary/bin/
+src/Foundation/Dictionary/HelixSite.Foundation.Dictionary/obj/
+src/Feature/Navigation/HelixSite.Feature.Navigation/obj/
