@@ -1,5 +1,5 @@
 module.exports = function () {
-    var instanceRoot = "C:\Repos\HelixSite\HelixSite\SandBox";
+    var instanceRoot = "C:\Repos\Helix-Example\SandBox";
   var config = {
     websiteRoot: instanceRoot + "\\Website",
     sitecoreLibraries: instanceRoot + "\\Website\\bin",
